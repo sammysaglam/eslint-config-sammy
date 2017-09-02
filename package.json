@@ -1,0 +1,9 @@
+{
+  "name": "eslint-sammy-preset",
+  "version": "1.0.0",
+  "description": "ESLint preset",
+  "main": "index.js",
+  "repository": "https://github.com/sammysaglam/eslint-sammy-preset",
+  "author": "Sammy Saglam",
+  "license": "MIT"
+}
