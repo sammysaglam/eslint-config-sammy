@@ -17,7 +17,7 @@ module.exports = {
     ],
     "rules": {
         "accessor-pairs": "error",
-        "array-bracket-newline": "error",
+        "array-bracket-newline": "off",
         "array-bracket-spacing": "error",
         "array-callback-return": "error",
         "array-element-newline": "error",
