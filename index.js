@@ -153,7 +153,7 @@ module.exports = {
         "no-lonely-if": "error",
         "no-loop-func": "error",
         "no-magic-numbers": ["error",{
-            ignore:[1,0,-1]
+            ignore:[1,0,-1,2]
         }],
         "no-mixed-operators": "error",
         "no-mixed-requires": "error",
