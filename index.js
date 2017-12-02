@@ -20,7 +20,7 @@ module.exports = {
 	] ,
 	'settings':{
 		'propWrapperFunctions':['forbidExtraProps']
-	}
+	} ,
 	'rules':{
 		'accessor-pairs':'error' ,
 		'array-bracket-newline':'off' ,
