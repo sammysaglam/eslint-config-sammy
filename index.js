@@ -6,7 +6,7 @@ module.exports = {
 	} ,
 	'extends':[
 		'eslint:recommended' ,
-		'plugin:react/recommended'
+		'plugin:react/all'
 	] ,
 	'parserOptions':{
 		'ecmaFeatures':{
@@ -258,6 +258,42 @@ module.exports = {
 			}
 		] ,
 		'radix':'off' ,
+		'react/display-name':'off' ,
+		'react/forbid-component-props':'off' ,
+		'react/forbid-foreign-prop-types':'off' ,
+		'react/jsx-filename-extension':'off' ,
+		'react/jsx-indent':[
+			'error' ,
+			'tab'
+		] ,
+		'react/jsx-indent-props':[
+			'error' ,
+			'tab'
+		] ,
+		'react/jsx-max-props-per-line':[
+			'error' ,
+			{
+				'when':'multiline'
+			}
+		] ,
+		'react/jsx-no-bind':[
+			'error' , {
+				'ignoreRefs':false ,
+				'allowArrowFunctions':true ,
+				'allowFunctions':false ,
+				'allowBind':false
+			}
+		] ,
+		'react/jsx-no-literals':'off' ,
+		'react/no-typos':'off' ,
+		'react/jsx-one-expression-per-line':'off' ,
+		'react/jsx-tag-spacing':[
+			'error' , {
+				'closingSlash':'never' ,
+				'beforeSelfClosing':'never' ,
+				'afterOpening':'never'
+			}
+		] ,
 		'react/jsx-uses-react':'error' ,
 		'react/jsx-uses-vars':'error' ,
 		'require-await':'error' ,
