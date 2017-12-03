@@ -287,6 +287,7 @@ module.exports = {
 		'react/jsx-no-literals':'off' ,
 		'react/no-set-state':'off' ,
 		'react/no-typos':'off' ,
+		'react/no-unescaped-entities':'off' ,
 		'react/jsx-one-expression-per-line':'off' ,
 		'react/jsx-tag-spacing':[
 			'error' , {
@@ -297,6 +298,7 @@ module.exports = {
 		] ,
 		'react/jsx-uses-react':'error' ,
 		'react/jsx-uses-vars':'error' ,
+		'react/require-optimization':'off' ,
 		'require-await':'error' ,
 		'require-jsdoc':'error' ,
 		'rest-spread-spacing':'error' ,
