@@ -285,6 +285,7 @@ module.exports = {
 			}
 		] ,
 		'react/jsx-no-literals':'off' ,
+		'react/no-access-state-in-setstate':'off',
 		'react/no-set-state':'off' ,
 		'react/no-typos':'off' ,
 		'react/no-unescaped-entities':'off' ,
