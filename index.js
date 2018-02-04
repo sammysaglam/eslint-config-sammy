@@ -61,7 +61,7 @@ module.exports = {
 			'error' ,
 			'last'
 		] ,
-		'complexity':'error' ,
+		'complexity':'off' ,
 		'computed-property-spacing':'error' ,
 		'consistent-return':'error' ,
 		'consistent-this':'error' ,
@@ -201,7 +201,7 @@ module.exports = {
 		'no-shadow':'error' ,
 		'no-shadow-restricted-names':'error' ,
 		'no-spaced-func':'error' ,
-		'no-sync':'error' ,
+		'no-sync':'off' ,
 		'no-tabs':'off' ,
 		'no-template-curly-in-string':'error' ,
 		'no-ternary':'off' ,
@@ -261,6 +261,7 @@ module.exports = {
 		'react/display-name':'off' ,
 		'react/forbid-component-props':'off' ,
 		'react/forbid-foreign-prop-types':'off' ,
+		'react/jsx-boolean-value':'off' ,
 		'react/jsx-filename-extension':'off' ,
 		'react/jsx-indent':[
 			'error' ,
@@ -285,7 +286,8 @@ module.exports = {
 			}
 		] ,
 		'react/jsx-no-literals':'off' ,
-		'react/no-access-state-in-setstate':'off',
+		'react/no-access-state-in-setstate':'off' ,
+		'react/no-children-prop':'off' ,
 		'react/no-set-state':'off' ,
 		'react/no-typos':'off' ,
 		'react/no-unescaped-entities':'off' ,
