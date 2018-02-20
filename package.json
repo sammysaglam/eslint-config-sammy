@@ -1,9 +1,18 @@
 {
-  "name": "eslint-sammy-preset",
-  "version": "1.2.1",
-  "description": "ESLint preset",
-  "main": "index.js",
-  "repository": "https://github.com/sammysaglam/eslint-sammy-preset",
-  "author": "Sammy Saglam",
-  "license": "MIT"
+	"name":"eslint-sammy-preset" ,
+	"version":"2.0.0" ,
+	"description":"ESLint preset" ,
+	"main":".eslintrc.js" ,
+	"repository":"https://github.com/sammysaglam/eslint-sammy-preset" ,
+	"author":"Sammy Saglam" ,
+	"license":"MIT" ,
+	"dependencies":{
+		"eslint-config-prettier":"^2.9.0" ,
+		"eslint-plugin-prettier":"^2.6.0" ,
+		"eslint-plugin-react":"^7.7.0" ,
+		"prettier":"^1.10.2"
+	} ,
+	"peerDependencies":{
+		"eslint":"^4.18.0"
+	}
 }

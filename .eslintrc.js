@@ -6,7 +6,8 @@ module.exports = {
 	} ,
 	'extends':[
 		'eslint:recommended' ,
-		'plugin:react/all'
+		'plugin:react/all' ,
+		'prettier'
 	] ,
 	'parserOptions':{
 		'ecmaFeatures':{
@@ -16,17 +17,19 @@ module.exports = {
 		'sourceType':'module'
 	} ,
 	'plugins':[
-		'react'
+		'react' ,
+		'prettier'
 	] ,
 	'settings':{
 		'propWrapperFunctions':['forbidExtraProps']
 	} ,
 	'rules':{
+		'prettier/prettier':'error' ,
 		'accessor-pairs':'error' ,
 		'array-bracket-newline':'off' ,
 		'array-bracket-spacing':'error' ,
 		'array-callback-return':'error' ,
-		'array-element-newline':'error' ,
+		'array-element-newline':'off' ,
 		'arrow-body-style':['error' , 'as-needed'] ,
 		'arrow-parens':[
 			'error' ,
@@ -54,7 +57,7 @@ module.exports = {
 			'error' ,
 			{
 				'after':true ,
-				'before':true
+				'before':false
 			}
 		] ,
 		'comma-style':[
@@ -69,10 +72,7 @@ module.exports = {
 		'default-case':'error' ,
 		'dot-location':'off' ,
 		'dot-notation':'off' ,
-		'eol-last':[
-			'error' ,
-			'never'
-		] ,
+		'eol-last':'off' ,
 		'eqeqeq':'error' ,
 		'for-direction':'error' ,
 		'func-call-spacing':'error' ,
@@ -165,7 +165,7 @@ module.exports = {
 				ignore:[1 , 0 , -1 , 2]
 			}
 		] ,
-		'no-mixed-operators':'error' ,
+		'no-mixed-operators':'off' ,
 		'no-mixed-requires':'error' ,
 		'no-multi-assign':'error' ,
 		'no-multi-spaces':'error' ,
@@ -229,7 +229,7 @@ module.exports = {
 		'object-curly-newline':'off' ,
 		'object-curly-spacing':[
 			'error' ,
-			'never'
+			'always'
 		] ,
 		'object-property-newline':'error' ,
 		'object-shorthand':'error' ,
@@ -296,7 +296,7 @@ module.exports = {
 		'react/jsx-tag-spacing':[
 			'error' , {
 				'closingSlash':'never' ,
-				'beforeSelfClosing':'never' ,
+				'beforeSelfClosing':'always' ,
 				'afterOpening':'never'
 			}
 		] ,
