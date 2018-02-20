@@ -271,6 +271,7 @@ module.exports = {
 			'error' ,
 			'tab'
 		] ,
+		'react/jsx-max-depth':'off' ,
 		'react/jsx-max-props-per-line':[
 			'error' ,
 			{
