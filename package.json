@@ -1,6 +1,6 @@
 {
 	"name": "eslint-sammy-preset",
-	"version": "3.0.1",
+	"version": "3.1.0",
 	"description": "ESLint preset",
 	"main": ".eslintrc.js",
 	"repository": "https://github.com/sammysaglam/eslint-sammy-preset",
