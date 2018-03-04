@@ -10,6 +10,7 @@ module.exports = {
 		'prettier'
 	],
 	'parserOptions': {
+		'ecmaVersion': 8,
 		'ecmaFeatures': {
 			'experimentalObjectRestSpread': true,
 			'jsx': true
