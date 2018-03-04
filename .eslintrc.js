@@ -264,10 +264,7 @@ module.exports = {
 		'react/forbid-foreign-prop-types': 'off',
 		'react/jsx-boolean-value': 'off',
 		'react/jsx-filename-extension': 'off',
-		'react/jsx-indent': [
-			'error',
-			'tab'
-		],
+		'react/jsx-indent': 'off',
 		'react/jsx-indent-props': [
 			'error',
 			'tab'
