@@ -9,6 +9,7 @@ module.exports = {
 		'plugin:react/all',
 		'prettier'
 	],
+	'parser': 'babel-eslint',
 	'parserOptions': {
 		'ecmaVersion': 8,
 		'ecmaFeatures': {
