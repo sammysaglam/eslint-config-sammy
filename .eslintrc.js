@@ -312,7 +312,7 @@ module.exports = {
 			'last'
 		],
 		'sort-imports': 'off',
-		'sort-keys': 'off',
+		'sort-keys': ['error', 'asc', { 'caseSensitive': false, 'natural': true }],
 		'sort-vars': 'error',
 		'space-before-blocks': 'error',
 		'space-before-function-paren': 'off',
