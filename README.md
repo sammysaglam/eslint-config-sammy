@@ -28,7 +28,7 @@ module.exports = require('eslint-sammy-preset');
 
 #### .prettierrc.js
 ```javascript
-module.exports = require('eslint-sammy-preset/.prettierrc.js');
+module.exports = require('eslint-sammy-preset/.prettierrc.recommended.js');
 ```
 
 ### Step 3:
