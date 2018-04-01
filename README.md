@@ -1,4 +1,8 @@
 # ESlint Sammy Preset
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/sammysaglam/eslint-sammy-preset/blob/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/eslint-sammy-preset.svg?style=flat)](https://www.npmjs.com/package/eslint-sammy-preset)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)
+
 Highly opinionated & React/JSX centric. 
 
 ## Features:
