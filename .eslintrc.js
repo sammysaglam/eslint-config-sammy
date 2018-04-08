@@ -7,6 +7,7 @@ module.exports = {
 	'extends': [
 		'eslint:recommended',
 		'plugin:react/all',
+		'plugin:jest/recommended',
 		'prettier'
 	],
 	'parser': 'babel-eslint',
@@ -20,7 +21,8 @@ module.exports = {
 	},
 	'plugins': [
 		'react',
-		'prettier'
+		'prettier',
+		'jest'
 	],
 	'settings': {
 		'propWrapperFunctions': ['forbidExtraProps']
@@ -59,6 +61,20 @@ module.exports = {
 		'id-length': 'error',
 		'id-match': 'error',
 		'init-declarations': 'error',
+		'jest/lowercase-name': 'error',
+		'jest/no-disabled-tests': 'error',
+		'jest/no-focused-tests': 'error',
+		'jest/no-hooks': 'error',
+		'jest/no-identical-title': 'error',
+		'jest/no-jest-import': 'error',
+		'jest/no-test-prefixes': 'error',
+		'jest/prefer-to-have-length': 'error',
+		'jest/prefer-to-be-null': 'error',
+		'jest/prefer-to-be-undefined': 'error',
+		'jest/prefer-expect-assertions': 'error',
+		'jest/valid-describe': 'error',
+		'jest/valid-expect': 'error',
+		'jest/valid-expect-in-promise': 'error',
 		'line-comment-position': 'error',
 		'linebreak-style': [
 			'error',
