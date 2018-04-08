@@ -71,7 +71,7 @@ module.exports = {
 		'jest/prefer-to-have-length': 'error',
 		'jest/prefer-to-be-null': 'error',
 		'jest/prefer-to-be-undefined': 'error',
-		'jest/prefer-expect-assertions': 'error',
+		'jest/prefer-expect-assertions': 'off',
 		'jest/valid-describe': 'error',
 		'jest/valid-expect': 'error',
 		'jest/valid-expect-in-promise': 'error',
