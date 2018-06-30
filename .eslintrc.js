@@ -27,6 +27,10 @@ module.exports = {
 	'settings': {
 		'propWrapperFunctions': ['forbidExtraProps']
 	},
+	"globals": {
+        "process": false,
+        "__dirname": false
+    },
 	'rules': {
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
