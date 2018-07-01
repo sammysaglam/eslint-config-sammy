@@ -31,6 +31,7 @@ module.exports = {
 		'flowtype': {
 			'onlyFilesWithFlowAnnotation': true,
 		}
+    },
 	"globals": {
         "process": false,
         "__dirname": false
