@@ -42,7 +42,7 @@ module.exports = {
 		// ------------------------------------------------
 		'flowtype/boolean-style': [2, 'boolean'],
 		'flowtype/define-flow-type': 1,
-		'flowtype/delimiter-dangle': [2, 'always-multiline'],
+		'flowtype/delimiter-dangle': 'off',
 		'flowtype/generic-spacing': 'off',
 		'flowtype/no-primitive-constructor-types': 2,
 		'flowtype/no-types-missing-file-annotation': 2,
