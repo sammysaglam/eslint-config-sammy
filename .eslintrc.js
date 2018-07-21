@@ -58,7 +58,7 @@ module.exports = {
 			},
 		],
 		'flowtype/semi': [2, 'always'],
-		'flowtype/space-after-type-colon': [2, 'always'],
+		'flowtype/space-after-type-colon': 'off',
 		'flowtype/space-before-generic-bracket': [2, 'never'],
 		'flowtype/space-before-type-colon': [2, 'never'],
 		'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]+)+Type$'],
