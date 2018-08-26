@@ -96,7 +96,7 @@ module.exports = {
 		'guard-for-in': 'error',
 		'handle-callback-err': 'error',
 		'id-blacklist': 'error',
-		'id-length': 'error',
+		'id-length': ['error', { exceptions: ['_', '__', '___'] }],
 		'id-match': 'error',
 		'init-declarations': 'error',
 		'jest/lowercase-name': 'error',
