@@ -2,7 +2,7 @@
 	"name": "eslint-sammy-preset",
 	"version": "7.0.4",
 	"description": "ESLint preset",
-	"main": ".eslintrc.js",
+	"main": "index.js",
 	"repository": "https://github.com/sammysaglam/eslint-sammy-preset",
 	"author": "Sammy Saglam",
 	"license": "MIT",
@@ -18,5 +18,8 @@
 	},
 	"peerDependencies": {
 		"eslint": "^4.18.0"
+	},
+	"devDependencies": {
+		"eslint": "^5.4.0"
 	}
 }
