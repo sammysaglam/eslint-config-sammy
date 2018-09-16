@@ -272,6 +272,12 @@ module.exports = {
 		'react/jsx-uses-react': 'error',
 		'react/jsx-uses-vars': 'error',
 		'react/require-optimization': 'off',
+		'react/sort-comp': [
+			1,
+			{
+				order: ['type-annotations', 'static-methods', 'lifecycle', 'everything-else', 'render'],
+			},
+		],
 		'require-await': 'error',
 		'require-jsdoc': 'error',
 		'sort-imports': 'off',
