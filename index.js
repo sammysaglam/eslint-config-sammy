@@ -24,6 +24,12 @@ module.exports = {
 	globals: {
 		process: false,
 		__dirname: false,
+		Buffer: false,
+		_: false,
+		__: false,
+		___: false,
+		____: false,
+		_____: false,
 	},
 	rules: {
 		// ------------------------------------------------
