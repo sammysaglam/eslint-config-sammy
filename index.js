@@ -14,7 +14,7 @@ module.exports = {
 		},
 		sourceType: 'module',
 	},
-	plugins: ['import', 'react', 'prettier', 'jest', 'flowtype'],
+	plugins: ['import', 'react', 'prettier', 'jest', 'flowtype', 'react-intl'],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],
 		flowtype: {
@@ -78,6 +78,7 @@ module.exports = {
 		// ------------------------------------------------
 		// ------------------------------------------------
 
+		'react-intl/string-is-marked-for-translation': 'error',
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
 		'array-callback-return': 'error',
