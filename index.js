@@ -265,6 +265,7 @@ module.exports = {
 		'react/no-children-prop': 'off',
 		'react/no-set-state': 'off',
 		'react/no-typos': 'off',
+		'react/no-multi-comp': 'off',
 		'react/no-unescaped-entities': 'off',
 		'react/jsx-one-expression-per-line': 'off',
 		'react/jsx-tag-spacing': [
