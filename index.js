@@ -20,6 +20,9 @@ module.exports = {
 		flowtype: {
 			onlyFilesWithFlowAnnotation: true,
 		},
+		react: {
+			version: 'detect',
+		},
 	},
 	globals: {
 		process: false,
