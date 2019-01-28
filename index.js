@@ -59,7 +59,7 @@ module.exports = {
 		'flowtype/space-after-type-colon': 'off',
 		'flowtype/space-before-generic-bracket': [2, 'never'],
 		'flowtype/space-before-type-colon': [2, 'never'],
-		'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]+)+Type$'],
+		'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]+)+Type(s|)$'],
 		'flowtype/union-intersection-spacing': [2, 'always'],
 		'flowtype/use-flow-type': 1,
 		'flowtype/valid-syntax': 1,
