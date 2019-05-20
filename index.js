@@ -4,8 +4,15 @@ module.exports = {
 		commonjs: true,
 		es6: true,
 	},
-	extends: ['eslint:recommended', 'plugin:react/all', 'plugin:jest/recommended', 'prettier'],
-	parser: 'babel-eslint',
+	extends: [
+		'eslint:recommended',
+		'plugin:react/all',
+		'plugin:jest/recommended',
+		'prettier',
+		'plugin:@typescript-eslint/recommended',
+		'prettier/@typescript-eslint',
+	],
+	parser: '@typescript-eslint/parser',
 	parserOptions: {
 		ecmaVersion: 8,
 		ecmaFeatures: {
@@ -13,8 +20,9 @@ module.exports = {
 			jsx: true,
 		},
 		sourceType: 'module',
+		project: './tsconfig.json',
 	},
-	plugins: ['import', 'react', 'prettier', 'jest', 'flowtype', 'react-intl'],
+	plugins: ['import', 'react', 'prettier', 'jest', 'flowtype', 'react-intl', '@typescript-eslint'],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],
 		flowtype: {
@@ -77,6 +85,15 @@ module.exports = {
 				natural: true,
 			},
 		],
+
+		// ------------------------------------------------
+		// typescript
+		// ------------------------------------------------
+		'@typescript-eslint/explicit-function-return-type': 'off',
+		'@typescript-eslint/explicit-member-accessibility': 'off',
+		'@typescript-eslint/no-explicit-any': 'off',
+		'@typescript-eslint/no-unused-vars': 'error',
+		'@typescript-eslint/no-var-requires': 'off',
 		// ------------------------------------------------
 		// ------------------------------------------------
 		// ------------------------------------------------

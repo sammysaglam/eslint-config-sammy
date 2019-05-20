@@ -1,1 +1,1 @@
-module.exports = require('./.prettierrc.recommended.js')
+module.exports = require('./.prettierrc.recommended.js');
