@@ -22,7 +22,15 @@ module.exports = {
 		sourceType: 'module',
 		project: './tsconfig.json',
 	},
-	plugins: ['import', 'react', 'prettier', 'jest', 'flowtype', 'react-intl', '@typescript-eslint'],
+	plugins: [
+		'import',
+		'react',
+		'prettier',
+		'jest',
+		'flowtype',
+		'react-intl',
+		'@typescript-eslint',
+	],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],
 		flowtype: {
@@ -94,11 +102,13 @@ module.exports = {
 		'@typescript-eslint/no-explicit-any': 'off',
 		'@typescript-eslint/no-unused-vars': 'error',
 		'@typescript-eslint/no-var-requires': 'off',
-		'@typescript-eslint/no-namespace': "off",
+		'@typescript-eslint/no-namespace': 'off',
 		// ------------------------------------------------
 		// ------------------------------------------------
 		// ------------------------------------------------
 
+		'line-comment-position': 'off',
+		'no-inline-comments': 'off',
 		'react-intl/string-is-marked-for-translation': 'error',
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
@@ -141,7 +151,6 @@ module.exports = {
 		'jest/valid-describe': 'error',
 		'jest/valid-expect': 'error',
 		'jest/valid-expect-in-promise': 'error',
-		'line-comment-position': 'error',
 		'linebreak-style': ['error', 'unix'],
 		'lines-around-directive': 'error',
 		'max-depth': 'error',
@@ -178,7 +187,6 @@ module.exports = {
 		'no-implicit-coercion': 'error',
 		'no-implicit-globals': 'error',
 		'no-implied-eval': 'error',
-		'no-inline-comments': 'error',
 		'no-invalid-this': 'off',
 		'no-iterator': 'error',
 		'no-label-var': 'error',
@@ -304,7 +312,13 @@ module.exports = {
 		'react/sort-comp': [
 			1,
 			{
-				order: ['type-annotations', 'static-methods', 'lifecycle', 'everything-else', 'render'],
+				order: [
+					'type-annotations',
+					'static-methods',
+					'lifecycle',
+					'everything-else',
+					'render',
+				],
 			},
 		],
 		'require-await': 'error',
