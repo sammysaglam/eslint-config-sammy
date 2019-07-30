@@ -28,7 +28,7 @@ module.exports = {
 		'prettier',
 		'jest',
 		'flowtype',
-		'react-intl',
+		'@calm/react-intl',
 		'@typescript-eslint',
 	],
 	settings: {
@@ -109,7 +109,28 @@ module.exports = {
 
 		'line-comment-position': 'off',
 		'no-inline-comments': 'off',
-		'react-intl/string-is-marked-for-translation': 'error',
+
+		// ------------------------------------------------
+		// react-intl
+		// ------------------------------------------------
+		'@calm/react-intl/missing-formatted-message': [
+			2,
+			{ noTrailingWhitespace: true, ignoreLinks: true },
+		],
+		'@calm/react-intl/missing-attribute': [
+			2,
+			{
+				noTrailingWhitespace: true,
+				noSpreadOperator: true,
+				requireDescription: true,
+				formatDefineMessages: false,
+			},
+		],
+		'@calm/react-intl/missing-values': 2,
+		// ------------------------------------------------
+		// ------------------------------------------------
+		// ------------------------------------------------
+
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
 		'array-callback-return': 'error',

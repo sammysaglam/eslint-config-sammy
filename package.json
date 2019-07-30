@@ -1,12 +1,13 @@
 {
 	"name": "eslint-sammy-preset",
-	"version": "11.0.0",
+	"version": "12.0.0",
 	"description": "ESLint preset",
 	"main": "index.js",
 	"repository": "https://github.com/sammysaglam/eslint-sammy-preset",
 	"author": "Sammy Saglam",
 	"license": "MIT",
 	"dependencies": {
+		"@calm/eslint-plugin-react-intl": "https://github.com/sammysaglam/eslint-plugin-react-intl",
 		"@typescript-eslint/eslint-plugin": "^1.13.0",
 		"@typescript-eslint/parser": "^1.13.0",
 		"babel-eslint": "^10.0.2",
@@ -16,7 +17,6 @@
 		"eslint-plugin-jest": "^22.13.6",
 		"eslint-plugin-prettier": "^3.1.0",
 		"eslint-plugin-react": "^7.14.3",
-		"eslint-plugin-react-intl": "^1.1.2",
 		"prettier": "^1.18.2"
 	},
 	"peerDependencies": {
