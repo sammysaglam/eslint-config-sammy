@@ -97,6 +97,7 @@ module.exports = {
 		// ------------------------------------------------
 		// typescript
 		// ------------------------------------------------
+		'@typescript-eslint/camelcase': 'off',
 		'@typescript-eslint/explicit-function-return-type': 'off',
 		'@typescript-eslint/explicit-member-accessibility': 'off',
 		'@typescript-eslint/no-explicit-any': 'off',
@@ -137,7 +138,7 @@ module.exports = {
 		'arrow-body-style': ['error', 'as-needed'],
 		'block-scoped-var': 'error',
 		'callback-return': 'error',
-		camelcase: 'error',
+		camelcase: 'off',
 		'capitalized-comments': ['error', 'never'],
 		'class-methods-use-this': 'off',
 		complexity: 'off',
