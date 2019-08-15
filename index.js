@@ -338,6 +338,7 @@ module.exports = {
 				],
 			},
 		],
+		'react/style-prop-object':'off',
 		'require-await': 'error',
 		'require-jsdoc': 'error',
 		'sort-imports': 'off',
