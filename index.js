@@ -340,7 +340,7 @@ module.exports = {
 		],
 		'react/style-prop-object':'off',
 		'require-await': 'error',
-		'require-jsdoc': 'error',
+		'require-jsdoc': 'off',
 		'sort-imports': 'off',
 		'sort-keys': 'off',
 		'sort-vars': 'error',
