@@ -282,7 +282,7 @@ module.exports = {
 		'prefer-reflect': 'error',
 		'prefer-rest-params': 'error',
 		'prefer-spread': 'error',
-		'prefer-template': 'off',
+		'prefer-template': 'error',
 		radix: 'off',
 		'react/display-name': 'off',
 		'react/forbid-component-props': 'off',
