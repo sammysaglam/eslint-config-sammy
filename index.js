@@ -288,6 +288,7 @@ module.exports = {
 		'react/forbid-component-props': 'off',
 		'react/forbid-foreign-prop-types': 'off',
 		'react/jsx-boolean-value': 'off',
+		'react/jsx-curly-newline': 'off',
 		'react/jsx-filename-extension': 'off',
 		'react/jsx-indent': 'off',
 		'react/jsx-indent-props': 'off',
