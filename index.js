@@ -150,7 +150,7 @@ module.exports = {
 		'for-direction': 'error',
 		'func-name-matching': 'error',
 		'func-names': 'error',
-		'func-style': ['error', 'expression'],
+		'func-style': 'off',
 		'getter-return': 'error',
 		'global-require': 'off',
 		'guard-for-in': 'error',
