@@ -309,6 +309,7 @@ module.exports = {
 			},
 		],
 		'react/jsx-no-literals': 'off',
+		'react/jsx-props-no-spreading': 'off',
 		'react/no-access-state-in-setstate': 'off',
 		'react/no-children-prop': 'off',
 		'react/no-set-state': 'off',
