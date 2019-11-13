@@ -1,6 +1,6 @@
 {
 	"name": "eslint-sammy-preset",
-	"version": "16.0.0",
+	"version": "16.1.0",
 	"description": "ESLint preset",
 	"main": "index.js",
 	"repository": "https://github.com/sammysaglam/eslint-sammy-preset",
@@ -8,16 +8,15 @@
 	"license": "MIT",
 	"dependencies": {
 		"@calm/eslint-plugin-react-intl": "https://github.com/sammysaglam/eslint-plugin-react-intl",
-		"@typescript-eslint/eslint-plugin": "^2.6.1",
-		"@typescript-eslint/parser": "^2.6.1",
+		"@typescript-eslint/eslint-plugin": "^2.7.0",
+		"@typescript-eslint/parser": "^2.7.0",
 		"babel-eslint": "^10.0.3",
 		"eslint-config-prettier": "^6.5.0",
-		"eslint-plugin-flowtype": "^3.12.1",
 		"eslint-plugin-import": "^2.18.2",
-		"eslint-plugin-jest": "^23.0.2",
+		"eslint-plugin-jest": "^23.0.3",
 		"eslint-plugin-prettier": "^3.1.1",
 		"eslint-plugin-react": "^7.16.0",
-		"prettier": "^1.18.2"
+		"prettier": "^1.19.1"
 	},
 	"peerDependencies": {
 		"eslint": "^6.6.0"
