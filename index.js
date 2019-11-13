@@ -27,15 +27,11 @@ module.exports = {
 		'react',
 		'prettier',
 		'jest',
-		'flowtype',
 		'@calm/react-intl',
 		'@typescript-eslint',
 	],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],
-		flowtype: {
-			onlyFilesWithFlowAnnotation: true,
-		},
 		react: {
 			version: 'detect',
 		},
@@ -51,49 +47,6 @@ module.exports = {
 		_____: false,
 	},
 	rules: {
-		// ------------------------------------------------
-		// flow
-		// ------------------------------------------------
-		'flowtype/boolean-style': [2, 'boolean'],
-		'flowtype/define-flow-type': 1,
-		'flowtype/delimiter-dangle': 'off',
-		'flowtype/generic-spacing': 'off',
-		'flowtype/no-primitive-constructor-types': 2,
-		'flowtype/no-types-missing-file-annotation': 2,
-		'flowtype/no-weak-types': 2,
-		'flowtype/object-type-delimiter': [2, 'comma'],
-		'flowtype/require-parameter-type': 'off',
-		'flowtype/require-return-type': 'off',
-		'flowtype/require-valid-file-annotation': [
-			2,
-			'always',
-			{
-				annotationStyle: 'line',
-			},
-		],
-		'flowtype/semi': [2, 'always'],
-		'flowtype/space-after-type-colon': 'off',
-		'flowtype/space-before-generic-bracket': [2, 'never'],
-		'flowtype/space-before-type-colon': [2, 'never'],
-		'flowtype/type-id-match': [2, '^([A-Z][a-z0-9]+)+Type(s|)$'],
-		'flowtype/union-intersection-spacing': [2, 'always'],
-		'flowtype/use-flow-type': 1,
-		'flowtype/valid-syntax': 1,
-		'import/no-duplicates': 'error',
-		'flowtype/newline-after-flow-annotation': [2, 'never'],
-		'flowtype/no-dupe-keys': 'error',
-		'flowtype/no-existential-type': 'error',
-		'flowtype/no-mutable-array': 'error',
-		'flowtype/no-unused-expressions': 'error',
-		'flowtype/sort-keys': [
-			2,
-			'asc',
-			{
-				caseSensitive: true,
-				natural: true,
-			},
-		],
-
 		// ------------------------------------------------
 		// typescript
 		// ------------------------------------------------
