@@ -294,6 +294,7 @@ module.exports = {
 				],
 			},
 		],
+		'react/jsx-handler-names':'off',
 		'react/style-prop-object':'off',
 		'require-await': 'error',
 		'require-jsdoc': 'off',
