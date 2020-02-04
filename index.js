@@ -262,6 +262,13 @@ module.exports = {
 				allowBind: false,
 			},
 		],
+		"react/function-component-definition": [
+			'error',
+			{
+				"namedComponents":  "arrow-function",
+				"unnamedComponents":  "arrow-function"
+			}
+		],
 		'react/jsx-no-literals': 'off',
 		'react/jsx-no-useless-fragment': 'off',
 		'react/jsx-props-no-spreading': 'off',
