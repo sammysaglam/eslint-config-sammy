@@ -1,6 +1,6 @@
 {
 	"name": "eslint-sammy-preset",
-	"version": "17.3.0",
+	"version": "17.4.0",
 	"description": "ESLint preset",
 	"main": "index.js",
 	"repository": "https://github.com/sammysaglam/eslint-sammy-preset",
@@ -19,9 +19,11 @@
 		"prettier": "^1.19.1"
 	},
 	"peerDependencies": {
-		"eslint": "^6.8.0"
+		"eslint": "^6.8.0",
+		"typescript": "^3.8.3"
 	},
 	"devDependencies": {
-		"eslint": "^6.8.0"
+		"eslint": "^6.8.0",
+		"typescript": "^3.8.3"
 	}
 }

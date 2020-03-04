@@ -109,7 +109,10 @@ module.exports = {
 		'guard-for-in': 'error',
 		'handle-callback-err': 'error',
 		'id-blacklist': 'error',
-		'id-length': ['error', { exceptions: ['_', '__', '___'] }],
+		'id-length': [
+			'error',
+			{ exceptions: ['_', '__', '___', '____', 'a', 'b'] },
+		],
 		'id-match': 'error',
 		'init-declarations': 'error',
 		'jest/lowercase-name': 'error',
@@ -262,12 +265,12 @@ module.exports = {
 				allowBind: false,
 			},
 		],
-		"react/function-component-definition": [
+		'react/function-component-definition': [
 			'error',
 			{
-				"namedComponents":  "arrow-function",
-				"unnamedComponents":  "arrow-function"
-			}
+				namedComponents: 'arrow-function',
+				unnamedComponents: 'arrow-function',
+			},
 		],
 		'react/jsx-no-literals': 'off',
 		'react/jsx-no-useless-fragment': 'off',
@@ -302,8 +305,8 @@ module.exports = {
 				],
 			},
 		],
-		'react/jsx-handler-names':'off',
-		'react/style-prop-object':'off',
+		'react/jsx-handler-names': 'off',
+		'react/style-prop-object': 'off',
 		'require-await': 'error',
 		'require-jsdoc': 'off',
 		'sort-imports': 'off',
