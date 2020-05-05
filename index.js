@@ -319,4 +319,12 @@ module.exports = {
 		'vars-on-top': 'error',
 		yoda: ['error', 'never'],
 	},
+	overrides: [
+		{
+			files: ['**/*.stories.ts', '**/*.stories.tsx'],
+			rules: {
+				'@calm/react-intl/missing-formatted-message': 'off',
+			},
+		},
+	],
 };
