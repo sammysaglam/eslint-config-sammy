@@ -324,6 +324,13 @@ module.exports = {
 		{
 			files: ['**/*.stories.ts', '**/*.stories.tsx'],
 			rules: {
+				'no-console': 'off',
+				'@calm/react-intl/missing-formatted-message': 'off',
+			},
+		},
+		{
+			files: ['**/*.test.ts', '**/*.test.tsx'],
+			rules: {
 				'@calm/react-intl/missing-formatted-message': 'off',
 			},
 		},
