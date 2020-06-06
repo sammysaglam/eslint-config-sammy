@@ -57,6 +57,7 @@ module.exports = {
 		'@typescript-eslint/no-unused-vars': 'error',
 		'@typescript-eslint/no-var-requires': 'off',
 		'@typescript-eslint/no-namespace': 'off',
+		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		// ------------------------------------------------
 		// ------------------------------------------------
 		// ------------------------------------------------
