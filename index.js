@@ -252,6 +252,7 @@ module.exports = {
 		'react/jsx-indent': 'off',
 		'react/jsx-indent-props': 'off',
 		'react/jsx-max-depth': 'off',
+		'react/require-default-props': 'off',
 		'react/jsx-max-props-per-line': [
 			'error',
 			{
