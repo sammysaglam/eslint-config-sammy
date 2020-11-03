@@ -112,7 +112,7 @@ module.exports = {
 		'id-blacklist': 'error',
 		'id-length': [
 			'error',
-			{ exceptions: ['_', '__', '___', '____', 'a', 'b'] },
+			{ exceptions: ['_', '__', '___', '____', 'a', 'b', 'x', 'y', 'z'] },
 		],
 		'id-match': 'error',
 		'init-declarations': 'error',
