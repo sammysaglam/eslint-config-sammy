@@ -29,7 +29,7 @@ module.exports = {
 		'jest',
 		'@calm/react-intl',
 		'@typescript-eslint',
-		'sort-imports-es6-autofix',
+		'simple-import-sort',
 	],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],
@@ -87,10 +87,11 @@ module.exports = {
 		// ------------------------------------------------
 		// ------------------------------------------------
 
-		'sort-imports-es6-autofix/sort-imports-es6': [
-			'error',
-			{ ignoreCase: true },
-		],
+		'simple-import-sort/imports': 'error',
+		'simple-import-sort/exports': 'error',
+		'import/first': 'error',
+		'import/newline-after-import': 'error',
+		'import/no-duplicates': 'error',
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
 		'array-callback-return': 'error',
@@ -322,6 +323,7 @@ module.exports = {
 		'require-await': 'error',
 		'require-jsdoc': 'off',
 		'sort-imports': 'off',
+		'import/order': 'off',
 		'sort-keys': 'off',
 		'sort-vars': 'error',
 		'spaced-comment': ['error', 'always'],
