@@ -29,6 +29,7 @@ module.exports = {
 		'jest',
 		'@calm/react-intl',
 		'@typescript-eslint',
+		'sort-imports-es6-autofix',
 	],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],
@@ -86,7 +87,10 @@ module.exports = {
 		// ------------------------------------------------
 		// ------------------------------------------------
 
-		'sort-imports': ['error', { ignoreCase: true }],
+		'sort-imports-es6-autofix/sort-imports-es6': [
+			'error',
+			{ ignoreCase: true },
+		],
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
 		'array-callback-return': 'error',
@@ -317,6 +321,7 @@ module.exports = {
 		'react/style-prop-object': 'off',
 		'require-await': 'error',
 		'require-jsdoc': 'off',
+		'sort-imports': 'off',
 		'sort-keys': 'off',
 		'sort-vars': 'error',
 		'spaced-comment': ['error', 'always'],
