@@ -86,6 +86,7 @@ module.exports = {
 		// ------------------------------------------------
 		// ------------------------------------------------
 
+		'sort-imports': ['error', { ignoreCase: true }],
 		'prettier/prettier': 'error',
 		'accessor-pairs': 'error',
 		'array-callback-return': 'error',
@@ -93,7 +94,11 @@ module.exports = {
 		'block-scoped-var': 'error',
 		'callback-return': 'error',
 		camelcase: 'off',
-		'capitalized-comments': ['error', 'never'],
+		'capitalized-comments': [
+			'error',
+			'never',
+			{ ignorePattern: 'TODO', ignoreConsecutiveComments: true },
+		],
 		'class-methods-use-this': 'off',
 		complexity: 'off',
 		'consistent-return': 'error',
@@ -312,7 +317,6 @@ module.exports = {
 		'react/style-prop-object': 'off',
 		'require-await': 'error',
 		'require-jsdoc': 'off',
-		'sort-imports': 'off',
 		'sort-keys': 'off',
 		'sort-vars': 'error',
 		'spaced-comment': ['error', 'always'],
