@@ -325,6 +325,7 @@ module.exports = {
 		'require-jsdoc': 'off',
 		'sort-imports': 'off',
 		'import/order': 'off',
+		'import/no-unused-modules': [1, { unusedExports: true }],
 		'sort-keys': 'off',
 		'sort-vars': 'error',
 		'spaced-comment': ['error', 'always'],
