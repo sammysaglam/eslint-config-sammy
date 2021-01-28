@@ -296,6 +296,7 @@ module.exports = {
 		'react/no-multi-comp': 'off',
 		'react/no-unescaped-entities': 'off',
 		'react/jsx-one-expression-per-line': 'off',
+		'react/jsx-closing-bracket-location': 'off',
 		'react/jsx-tag-spacing': [
 			'error',
 			{
