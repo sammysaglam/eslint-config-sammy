@@ -58,6 +58,7 @@ module.exports = {
 		'@typescript-eslint/no-unused-vars': 'error',
 		'@typescript-eslint/no-var-requires': 'off',
 		'@typescript-eslint/no-namespace': 'off',
+		'@typescript-eslint/no-shadow': 'error',
 		'@typescript-eslint/explicit-module-boundary-types': 'off',
 		// ------------------------------------------------
 		// ------------------------------------------------
@@ -216,7 +217,7 @@ module.exports = {
 		'no-script-url': 'error',
 		'no-self-compare': 'error',
 		'no-sequences': 'error',
-		'no-shadow': 'error',
+		'no-shadow': 'off',
 		'no-shadow-restricted-names': 'error',
 		'no-sync': 'off',
 		'no-template-curly-in-string': 'error',
