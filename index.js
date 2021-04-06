@@ -11,6 +11,7 @@ module.exports = {
 		'prettier',
 		'plugin:@typescript-eslint/recommended',
 		'prettier/@typescript-eslint',
+		'plugin:clean-regex/recommended',
 	],
 	parser: '@typescript-eslint/parser',
 	parserOptions: {
@@ -30,6 +31,7 @@ module.exports = {
 		'@calm/react-intl',
 		'@typescript-eslint',
 		'simple-import-sort',
+		'clean-regex',
 	],
 	settings: {
 		propWrapperFunctions: ['forbidExtraProps'],

@@ -1,6 +1,6 @@
 {
 	"name": "eslint-sammy-preset",
-	"version": "25.0.4",
+	"version": "25.1.0",
 	"description": "ESLint preset",
 	"main": "index.js",
 	"repository": "https://github.com/sammysaglam/eslint-sammy-preset",
@@ -12,6 +12,7 @@
 		"@typescript-eslint/parser": "^4.11.0",
 		"babel-eslint": "^10.1.0",
 		"eslint-config-prettier": "^7.1.0",
+		"eslint-plugin-clean-regex": "^0.5.1",
 		"eslint-plugin-import": "^2.22.1",
 		"eslint-plugin-jest": "^24.1.3",
 		"eslint-plugin-prettier": "^3.3.0",
