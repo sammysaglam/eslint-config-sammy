@@ -10,7 +10,6 @@ module.exports = {
 		'plugin:jest/recommended',
 		'prettier',
 		'plugin:@typescript-eslint/recommended',
-		'prettier/@typescript-eslint',
 		'plugin:clean-regex/recommended',
 	],
 	parser: '@typescript-eslint/parser',
