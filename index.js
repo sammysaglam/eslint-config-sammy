@@ -261,6 +261,7 @@ module.exports = {
 		'react/jsx-curly-newline': 'off',
 		'react/jsx-filename-extension': 'off',
 		'react/jsx-indent': 'off',
+		'react/jsx-newline': 'off',
 		'react/jsx-indent-props': 'off',
 		'react/jsx-max-depth': 'off',
 		'react/require-default-props': 'off',
