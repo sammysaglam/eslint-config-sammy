@@ -35,7 +35,7 @@ To the root of your project add the following two files:
 
 ```javascript
 module.exports = {
-	...require('eslint-config-sammy/.prettierrc.recommended.js'),
+  ...require("eslint-config-sammy/.prettierrc.recommended.js"),
 };
 ```
 
