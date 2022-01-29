@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sammy",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "ESLint config",
   "main": "index.js",
   "repository": "https://github.com/sammysaglam/eslint-config-sammy",
@@ -10,7 +10,6 @@
     "lint": "\"./node_modules/.bin/eslint\" . --ext js,ts,tsx"
   },
   "dependencies": {
-    "@calm/eslint-plugin-react-intl": "https://github.com/sammysaglam/eslint-plugin-react-intl.git#add-jsx-fragments-support",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
     "eslint-config-prettier": "^8.3.0",
@@ -19,6 +18,7 @@
     "eslint-plugin-jest": "^25.3.0",
     "eslint-plugin-react": "^7.27.1",
     "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-react-intl-sammy": "^1.4.2",
     "eslint-plugin-simple-import-sort": "^7.0.0",
     "prettier": "^2.5.0"
   },

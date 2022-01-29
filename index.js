@@ -27,7 +27,7 @@ module.exports = {
     "@typescript-eslint",
     "simple-import-sort",
     "formatjs",
-    "@calm/react-intl",
+    "react-intl-sammy",
     "react-hooks",
   ],
   "settings": {
@@ -79,7 +79,7 @@ module.exports = {
       },
     ],
 
-    "@calm/react-intl/missing-formatted-message": [
+    "react-intl-sammy/missing-formatted-message": [
       "error",
       {
         "noTrailingWhitespace": true,
@@ -355,13 +355,13 @@ module.exports = {
       "files": ["**/*.stories.ts", "**/*.stories.tsx"],
       "rules": {
         "no-console": "off",
-        "@calm/react-intl/missing-formatted-message": "off",
+        "react-intl-sammy/missing-formatted-message": "off",
       },
     },
     {
       "files": ["**/*.test.ts", "**/*.test.tsx"],
       "rules": {
-        "@calm/react-intl/missing-formatted-message": "off",
+        "react-intl-sammy/missing-formatted-message": "off",
       },
     },
   ],

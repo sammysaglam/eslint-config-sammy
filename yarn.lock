@@ -302,12 +302,6 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@calm/eslint-plugin-react-intl@https://github.com/sammysaglam/eslint-plugin-react-intl.git#add-jsx-fragments-support":
-  version "1.4.1"
-  resolved "https://github.com/sammysaglam/eslint-plugin-react-intl.git#f124ce4ad32bc98ab8297c50df4dcfec2c9c0407"
-  dependencies:
-    requireindex "~1.1.0"
-
 "@eslint/eslintrc@^1.0.4":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@eslint/eslintrc/-/eslintrc-1.0.4.tgz#dfe0ff7ba270848d10c5add0715e04964c034b31"
@@ -1478,6 +1472,13 @@ eslint-plugin-react-hooks@^4.3.0:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.3.0.tgz#318dbf312e06fab1c835a4abef00121751ac1172"
   integrity sha512-XslZy0LnMn+84NEG9jSGR6eGqaZB3133L8xewQo3fQagbQuGt7a63gf+P1NGKZavEYEC3UXaWEAA/AqDkuN6xA==
+
+eslint-plugin-react-intl-sammy@^1.4.2:
+  version "1.4.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-intl-sammy/-/eslint-plugin-react-intl-sammy-1.4.2.tgz#e1f88fa6c771e58133da68773bf8ad72476df413"
+  integrity sha512-dt2BdVBZ4k6QYYglXSyL4z/B6BR6P4R5wPep8xh1NZSJKnYbCCNL8x6ItUMJTOSn8OSeThJDr2kNja0A9e5few==
+  dependencies:
+    requireindex "~1.1.0"
 
 eslint-plugin-react@^7.27.1:
   version "7.27.1"
