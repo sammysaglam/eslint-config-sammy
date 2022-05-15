@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.2.0...v2.3.0) (2022-05-15)
+
+
+### Features
+
+* enable rule 'no-explicit-any' ([6504922](https://github.com/sammysaglam/eslint-config-sammy/commit/65049228bfcbf7cc6e100664bf3163ee49146f16))
+
 ## [2.2.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.1.1...v2.2.0) (2022-04-26)
 
 
