@@ -10,6 +10,7 @@ module.exports = {
     "plugin:jest/recommended",
     "prettier",
     "plugin:@typescript-eslint/recommended",
+    "plugin:functional/recommended",
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
@@ -27,8 +28,8 @@ module.exports = {
     "@typescript-eslint",
     "simple-import-sort",
     "formatjs",
-    "react-intl-sammy",
     "react-hooks",
+    "functional",
   ],
   "settings": {
     "propWrapperFunctions": ["forbidExtraProps"],
@@ -78,18 +79,47 @@ module.exports = {
         "idInterpolationPattern": "[sha512:contenthash:base64:6]",
       },
     ],
-
-    "react-intl-sammy/missing-formatted-message": [
+    "formatjs/no-emoji": "error",
+    "formatjs/no-literal-string-in-jsx": "error",
+    "formatjs/no-multiple-plurals": "error",
+    "formatjs/no-complex-selectors": [
       "error",
       {
-        "noTrailingWhitespace": true,
-        "ignoreLinks": true,
-        "enforceLabels": true,
-        "enforceImageAlts": true,
-        "enforceInputProps": true,
+        "limit": 3,
       },
     ],
+    // ------------------------------------------------
+    // ------------------------------------------------
+    // ------------------------------------------------
 
+    // ------------------------------------------------
+    // react-intl
+    // ------------------------------------------------
+    "functional/functional-parameters": [
+      "error",
+      {
+        allowRestParameter: true,
+        enforceParameterCount: false,
+      },
+    ],
+    "functional/no-promise-reject": "error",
+    "functional/no-throw-statements": "off",
+    "functional/no-try-statements": "off",
+    "functional/immutable-data": [
+      "error",
+      {
+        ignorePattern: ["^module.exports$"],
+      },
+    ],
+    "functional/no-expression-statements": "off",
+    "functional/prefer-immutable-types": ["off"],
+    "functional/prefer-readonly-type": "error",
+    "functional/type-declaration-immutability": "off",
+    "functional/no-mixed-types": "off",
+    "functional/no-return-void": "off",
+    "functional/prefer-property-signatures": "error",
+    "functional/prefer-tacit": "error",
+    "functional/readonly-type": ["error", "keyword"],
     // ------------------------------------------------
     // ------------------------------------------------
     // ------------------------------------------------
@@ -151,7 +181,6 @@ module.exports = {
     "jest/no-focused-tests": "error",
     "jest/no-hooks": "off",
     "jest/no-identical-title": "error",
-    "jest/no-jest-import": "error",
     "jest/no-test-prefixes": "error",
     "jest/no-test-callback": "off",
     "jest/prefer-to-have-length": "error",
@@ -355,13 +384,13 @@ module.exports = {
       "files": ["**/*.stories.ts", "**/*.stories.tsx"],
       "rules": {
         "no-console": "off",
-        "react-intl-sammy/missing-formatted-message": "off",
+        "formatjs/no-literal-string-in-jsx": "off",
       },
     },
     {
       "files": ["**/*.test.ts", "**/*.test.tsx"],
       "rules": {
-        "react-intl-sammy/missing-formatted-message": "off",
+        "formatjs/no-literal-string-in-jsx": "off",
       },
     },
   ],
