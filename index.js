@@ -1,3 +1,4 @@
+/* eslint-disable check-file/no-index */
 module.exports = {
   "env": {
     "browser": true,
@@ -30,6 +31,7 @@ module.exports = {
     "formatjs",
     "react-hooks",
     "functional",
+    "check-file",
   ],
   "settings": {
     "propWrapperFunctions": ["forbidExtraProps"],
@@ -120,6 +122,14 @@ module.exports = {
     "functional/prefer-property-signatures": "error",
     "functional/prefer-tacit": "error",
     "functional/readonly-type": ["error", "keyword"],
+    // ------------------------------------------------
+    // ------------------------------------------------
+    // ------------------------------------------------
+
+    // ------------------------------------------------
+    // check-file
+    // ------------------------------------------------
+    "check-file/no-index": "error",
     // ------------------------------------------------
     // ------------------------------------------------
     // ------------------------------------------------
