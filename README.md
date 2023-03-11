@@ -6,20 +6,20 @@
 
 Highly opinionated & React Typescript centric.
 
-## Features:
+## Features
 
 1. Lots of React goodness
-2. "Prettier" formatting (https://prettier.io/)
+2. "Prettier" formatting (<https://prettier.io/>)
 
 ## Installation
 
-### Step 1:
+### Step 1
 
 ```bash
-yarn add eslint eslint-config-sammy eslint-plugin-prettier --dev
+yarn add eslint eslint-config-sammy --dev
 ```
 
-### Step 2:
+### Step 2
 
 To the root of your project add the following two files:
 
@@ -39,7 +39,7 @@ module.exports = {
 };
 ```
 
-### Step 3:
+### Step 3
 
 Add to your package.json "scripts" key (if doesn't exist, create):
 
@@ -49,7 +49,7 @@ Add to your package.json "scripts" key (if doesn't exist, create):
 }
 ```
 
-### Step 4:
+### Step 4
 
 Add your ignore files: `.prettierignore` & `.eslintignore`
 
@@ -59,7 +59,7 @@ Add your ignore files: `.prettierignore` & `.eslintignore`
 **/coverage/**
 ```
 
-### Step 5:
+### Step 5
 
 Run in your terminal
 
