@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.4.0...v2.5.0) (2023-03-11)
+
+
+### Features
+
+* add eslint-plugin-check-file to disallow index files ([677eeed](https://github.com/sammysaglam/eslint-config-sammy/commit/677eeed68c1e1ae7eebd0ea9e97cff85e6c05c29))
+* add rules to disable default export ([bc74d71](https://github.com/sammysaglam/eslint-config-sammy/commit/bc74d718ff3eb3d6278c3abf311d4fd700397653))
+
+
+### Bug Fixes
+
+* typo ([daf953d](https://github.com/sammysaglam/eslint-config-sammy/commit/daf953dd6bf41d686a4769da9d629a353f7b6335))
+
 ## [2.4.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.3.0...v2.4.0) (2023-02-20)
 
 
