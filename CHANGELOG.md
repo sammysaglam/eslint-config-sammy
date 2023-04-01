@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.5.0...v2.6.0) (2023-04-01)
+
+
+### Features
+
+* enable jsx-no-useless-fragment ([29a8ef0](https://github.com/sammysaglam/eslint-config-sammy/commit/29a8ef02151c9082df438604a28004ddb76146e2))
+* enable no-children-prop ([3cc739b](https://github.com/sammysaglam/eslint-config-sammy/commit/3cc739bd6733435c1117ab02d6aa62aa077de38d))
+
+
+### Bug Fixes
+
+* disable rule no-useless-return ([aa1edde](https://github.com/sammysaglam/eslint-config-sammy/commit/aa1edde58cc3cb13484777b9f761764a42359187))
+
 ## [2.5.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.4.0...v2.5.0) (2023-03-11)
 
 
