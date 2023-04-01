@@ -344,7 +344,7 @@ module.exports = {
     "react/jsx-no-useless-fragment": "on",
     "react/jsx-props-no-spreading": "off",
     "react/no-access-state-in-setstate": "off",
-    "react/no-children-prop": "off",
+    "react/no-children-prop": "on",
     "react/no-set-state": "off",
     "react/no-typos": "off",
     "react/no-multi-comp": "off",
