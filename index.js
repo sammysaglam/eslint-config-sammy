@@ -286,7 +286,7 @@ module.exports = {
     "no-useless-concat": "error",
     "no-useless-constructor": "off",
     "no-useless-rename": "error",
-    "no-useless-return": "error",
+    "no-useless-return": "off",
     "no-var": "error",
     "no-void": "error",
     "no-warning-comments": "off",
