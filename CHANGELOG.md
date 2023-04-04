@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.6.1](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.6.0...v2.6.1) (2023-04-04)
+
+
+### Bug Fixes
+
+* typo ([5f06434](https://github.com/sammysaglam/eslint-config-sammy/commit/5f06434ab2ea9355f83228316c55f72383014749))
+
 ## [2.6.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.5.0...v2.6.0) (2023-04-01)
 
 
