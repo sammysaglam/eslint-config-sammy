@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.6.1...v2.7.0) (2023-04-09)
+
+
+### Features
+
+* allow console.warn/error/debug ([939de28](https://github.com/sammysaglam/eslint-config-sammy/commit/939de28d8cce1aaf290859fe7c44424b7ba7a575))
+* improve the storybook & test overrides ([a7362f7](https://github.com/sammysaglam/eslint-config-sammy/commit/a7362f7f980dc9e9daa5cc716843fb19c299e96a))
+
 ### [2.6.1](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.6.0...v2.6.1) (2023-04-04)
 
 
