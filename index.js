@@ -396,12 +396,15 @@ module.exports = {
       "rules": {
         "no-console": "off",
         "formatjs/no-literal-string-in-jsx": "off",
+        "functional/immutable-data": "off",
+        "import/no-default-export": "off",
       },
     },
     {
-      "files": ["**/*.test.ts", "**/*.test.tsx"],
+      "files": ["**/*.test.ts", "**/*.test.tsx", "**/*.spec.ts"],
       "rules": {
         "formatjs/no-literal-string-in-jsx": "off",
+        "functional/immutable-data": "off",
       },
     },
   ],
