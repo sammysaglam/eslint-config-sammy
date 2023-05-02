@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.7.1](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.7.0...v2.7.1) (2023-05-02)
+
+
+### Bug Fixes
+
+* allowExpressions for jsx-no-useless-fragment ([8206892](https://github.com/sammysaglam/eslint-config-sammy/commit/8206892b88f5d8151b74d0b2e0273c884ced912f))
+
 ## [2.7.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.6.1...v2.7.0) (2023-04-09)
 
 
