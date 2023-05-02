@@ -341,7 +341,12 @@ module.exports = {
       },
     ],
     "react/jsx-no-literals": "off",
-    "react/jsx-no-useless-fragment": "error",
+    "react/jsx-no-useless-fragment": [
+      "error",
+      {
+        allowExpressions: true,
+      },
+    ],
     "react/jsx-props-no-spreading": "off",
     "react/no-access-state-in-setstate": "off",
     "react/no-children-prop": "error",
