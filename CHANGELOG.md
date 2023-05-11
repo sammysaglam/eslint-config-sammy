@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.7.2](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.7.1...v2.7.2) (2023-05-11)
+
+
+### Bug Fixes
+
+* update some storybook overrides ([6eebf13](https://github.com/sammysaglam/eslint-config-sammy/commit/6eebf13a0784931a946b23ba6b68234bfc67622a))
+
 ### [2.7.1](https://github.com/sammysaglam/eslint-config-sammy/compare/v2.7.0...v2.7.1) (2023-05-02)
 
 
