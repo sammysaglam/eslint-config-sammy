@@ -81,7 +81,7 @@ module.exports = {
         "idInterpolationPattern": "[sha512:contenthash:base64:6]",
       },
     ],
-    "formatjs/no-emoji": "error",
+    "formatjs/no-emoji": "off",
     "formatjs/no-literal-string-in-jsx": "error",
     "formatjs/no-multiple-plurals": "error",
     "formatjs/no-complex-selectors": [
@@ -403,6 +403,8 @@ module.exports = {
         "formatjs/no-literal-string-in-jsx": "off",
         "functional/immutable-data": "off",
         "import/no-default-export": "off",
+        "react/prop-types": "off",
+        "react/destructuring-assignment": "off",
       },
     },
     {
