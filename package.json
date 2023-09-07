@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sammy",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "ESLint config",
   "main": "index.js",
   "repository": "https://github.com/sammysaglam/eslint-config-sammy",
