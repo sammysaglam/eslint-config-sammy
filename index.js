@@ -110,7 +110,7 @@ module.exports = {
     "functional/immutable-data": [
       "error",
       {
-        ignoreIdentifierPattern: ["^module.exports$"],
+        ignorePattern: ["^module.exports$"],
       },
     ],
     "functional/no-expression-statements": "off",
