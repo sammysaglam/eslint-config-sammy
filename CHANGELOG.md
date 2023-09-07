@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.3](https://github.com/sammysaglam/eslint-config-sammy/compare/v3.0.2...v3.0.3) (2023-09-07)
+
+
+### Bug Fixes
+
+* wrong rule on functional/immutable-data ([e9c35d7](https://github.com/sammysaglam/eslint-config-sammy/commit/e9c35d7697e8309cd0d9fd95ba547c9ac2141e2e))
+
 ### [3.0.2](https://github.com/sammysaglam/eslint-config-sammy/compare/v3.0.1...v3.0.2) (2023-09-07)
 
 
