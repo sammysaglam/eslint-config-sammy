@@ -121,7 +121,7 @@ module.exports = {
     "functional/no-mixed-types": "off",
     "functional/no-return-void": "off",
     "functional/prefer-property-signatures": "error",
-    "functional/prefer-tacit": "error",
+    "functional/prefer-tacit": "off",
     "functional/readonly-type": ["error", "keyword"],
     // ------------------------------------------------
     // ------------------------------------------------
