@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v3.0.3...v3.1.0) (2024-05-26)
+
+
+### Features
+
+* upgrade deps ([946bff9](https://github.com/sammysaglam/eslint-config-sammy/commit/946bff924365fb9ae475d081935690bf1c3f864f))
+
 ### [3.0.3](https://github.com/sammysaglam/eslint-config-sammy/compare/v3.0.2...v3.0.3) (2023-09-07)
 
 
