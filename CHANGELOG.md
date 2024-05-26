@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v3.1.0...v3.2.0) (2024-05-26)
+
+
+### Features
+
+* disable rule prefer-tacit ([86f50a5](https://github.com/sammysaglam/eslint-config-sammy/commit/86f50a5ddd11ea042f1294d0f93b4c14327c7d30))
+
 ## [3.1.0](https://github.com/sammysaglam/eslint-config-sammy/compare/v3.0.3...v3.1.0) (2024-05-26)
 
 
