@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.9](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.8...v4.0.9) (2025-01-04)
+
+
+### Bug Fixes
+
+* disable react-in-jsx-scope ([4b16605](https://github.com/sammysaglam/eslint-config-sammy/commit/4b166051f46cf37ac054eea4ba7f629eaea6434a))
+
 ### [4.0.8](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.7...v4.0.8) (2025-01-04)
 
 
