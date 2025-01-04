@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.8](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.7...v4.0.8) (2025-01-04)
+
+
+### Bug Fixes
+
+* configs ([2a6dc9e](https://github.com/sammysaglam/eslint-config-sammy/commit/2a6dc9ebed7ab7f80ab5d069dbfb534036dfb179))
+
 ### [4.0.7](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.6...v4.0.7) (2025-01-04)
 
 
