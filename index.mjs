@@ -423,6 +423,8 @@ export const config = [
         "prettier.config.js",
         "webpack.config.ts",
         "webpack.config.js",
+        "jest.config.ts",
+        "jest.config.js",
       ],
       rules: {
         "import/no-default-export": "off",
