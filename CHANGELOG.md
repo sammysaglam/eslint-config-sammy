@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.4](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.3...v4.0.4) (2025-01-04)
+
+
+### Bug Fixes
+
+* add jest.config.ts to default export exceptions ([e621509](https://github.com/sammysaglam/eslint-config-sammy/commit/e621509ab3560e4772e7da21f4c3338d303acdbf))
+
 ### [4.0.3](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.2...v4.0.3) (2025-01-04)
 
 
