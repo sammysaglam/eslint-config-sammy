@@ -416,6 +416,8 @@ export const config = [
         "prettier.config.mjs",
         "eslint.config.js",
         "prettier.config.js",
+        "webpack.config.ts",
+        "webpack.config.js",
       ],
       rules: {
         "import/no-default-export": "off",
