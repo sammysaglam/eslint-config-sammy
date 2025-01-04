@@ -326,6 +326,7 @@ export const config = [
         "prefer-spread": "error",
         "prefer-template": "error",
         "radix": "off",
+        "react/react-in-jsx-scope": "off",
         "react/display-name": "off",
         "react/forbid-component-props": "off",
         "react/forbid-foreign-prop-types": "off",
