@@ -19,7 +19,9 @@ export const config = [
     tseslint.configs.recommended,
     importPlugin.flatConfigs.recommended,
     eslintPluginPrettierRecommended,
+    react.configs.all,
     eslintConfigPrettier,
+    jest.configs.recommended,
     jsdoc.configs["flat/recommended"],
     {
       files: ["**/*.test.ts", "**/*.test.tsx"],
