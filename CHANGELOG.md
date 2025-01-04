@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.2](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.1...v4.0.2) (2025-01-04)
+
+
+### Bug Fixes
+
+* add webpack config to default export ignore ([2da0a09](https://github.com/sammysaglam/eslint-config-sammy/commit/2da0a092e3fd90e0c470f410e44ecf2737b8b7d1))
+
 ### [4.0.1](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.0...v4.0.1) (2025-01-04)
 
 
