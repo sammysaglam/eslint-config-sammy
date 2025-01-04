@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.3](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.2...v4.0.3) (2025-01-04)
+
+
+### Bug Fixes
+
+* import resolve extensions ([c2272aa](https://github.com/sammysaglam/eslint-config-sammy/commit/c2272aa54ec332997472a97edb455e9e645090f6))
+
 ### [4.0.2](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.1...v4.0.2) (2025-01-04)
 
 
