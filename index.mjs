@@ -56,6 +56,11 @@ export const config = [
         "react": {
           "version": "detect",
         },
+        "import/resolver": {
+          "node": {
+            "extensions": [".js", ".jsx", ".ts", ".tsx", ".mjs"],
+          },
+        },
       },
       rules: {
         // ------------------------------------------------
