@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.11](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.10...v4.0.11) (2025-01-05)
+
+
+### Bug Fixes
+
+* disable functional/prefer-readonly-type because it's too invasive ([957bf63](https://github.com/sammysaglam/eslint-config-sammy/commit/957bf630af8c234d22d544c22549c3de54051ec8))
+
 ### [4.0.10](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.9...v4.0.10) (2025-01-05)
 
 
