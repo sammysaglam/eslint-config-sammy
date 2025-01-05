@@ -136,7 +136,7 @@ export const config = [
         ],
         "functional/no-expression-statements": "off",
         "functional/prefer-immutable-types": ["off"],
-        "functional/prefer-readonly-type": "error",
+        "functional/prefer-readonly-type": "off",
         "functional/type-declaration-immutability": "off",
         "functional/no-mixed-types": "off",
         "functional/no-return-void": "off",
