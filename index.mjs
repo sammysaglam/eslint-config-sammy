@@ -1,4 +1,4 @@
-/* eslint-disable check-file/no-index, import/no-unresolved */
+/* eslint-disable check-file/no-index */
 import eslint from "@eslint/js";
 import eslintConfigPrettier from "eslint-config-prettier";
 import checkFile from "eslint-plugin-check-file";
@@ -161,6 +161,7 @@ export const config = [
         "import/newline-after-import": "error",
         "import/no-duplicates": "error",
         "import/no-default-export": "error",
+        "import/no-unresolved": "off",
         "prettier/prettier": "error",
         "accessor-pairs": "error",
         "array-callback-return": "error",
