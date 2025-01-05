@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.10](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.9...v4.0.10) (2025-01-05)
+
+
+### Bug Fixes
+
+* disable import/no-unresolved because typescript does it anyways ([c03af10](https://github.com/sammysaglam/eslint-config-sammy/commit/c03af107e240b776ea5b356d4f93cf64717e3804))
+
 ### [4.0.9](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.8...v4.0.9) (2025-01-04)
 
 
