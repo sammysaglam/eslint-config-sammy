@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.12](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.11...v4.0.12) (2025-01-20)
+
+
+### Bug Fixes
+
+* functional/disable no-promise-reject rule ([b0765a7](https://github.com/sammysaglam/eslint-config-sammy/commit/b0765a7f0ddf727b899b1b25dfa7e4b54e127660))
+
 ### [4.0.11](https://github.com/sammysaglam/eslint-config-sammy/compare/v4.0.10...v4.0.11) (2025-01-05)
 
 
