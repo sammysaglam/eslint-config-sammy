@@ -124,7 +124,7 @@ export const config = [
             enforceParameterCount: false,
           },
         ],
-        "functional/no-promise-reject": "error",
+        "functional/no-promise-reject": "off",
         "functional/no-throw-statements": "off",
         "functional/no-try-statements": "off",
         "functional/immutable-data": [
